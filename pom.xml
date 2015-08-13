@@ -20,6 +20,11 @@
 	<!-- Dependent Modules -->
 	<dependencies>
 
+		<dependency>
+			<groupId>de.mxro.thrd.gwtuser251</groupId>
+			<artifactId>thrdGWTUser251</artifactId>
+			<version>[0.0.1,)</version>
+		</dependency>
 		
 
 		<dependency>
@@ -303,11 +308,6 @@
 		</developer>
 	</developers>
 
-	<scm>
-		<connection>scm:git:git@github.com:mxro/client-api.git</connection>
-		<url>https://github.com/mxro/client-api</url>
-		<developerConnection>scm:git:git@github.com:mxro/client-api.git
-		</developerConnection>
-	</scm>
+	
 
 </project>
