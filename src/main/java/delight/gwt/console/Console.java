@@ -31,11 +31,11 @@ public final class Console {
      * @param object
      *            The object to be logged to the console.
      */
-    public static final void log(final JavaScriptObject object) {
+    public static final void log(final Object object) {
         logNative(object);
     }
 
-    private static final native void logNative(String message)/*-{
+    private static final native void logNative(Object message)/*-{
                                                               if (window.console) { 
 
                                                               window.console.log(message);
